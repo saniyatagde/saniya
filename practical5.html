@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Scholarship Registation Form</title>
+    </head>
+    
+        <h1>Scholarship Application Form</h1>
+    <boby bgcolor="Black">
+        <form>
+            <legend>
+            <h3>Personal Information:</h3> </legend>
+            <lable for="Name">Enter your full name:</lable>
+            <input type="text" required Placeholder="First Name"/>
+            <input type="text" required Placeholder="Middle Name"/>
+            <input type="text" required Placeholder="Last Name"/><br>
+           
+            <label for="email">Enter your email:</label>
+            <input type="email" required/><br>
+           
+            <lable for="password">Enter your password:</lable> 
+            <input type="password"required><br>
+           
+            <lable for="conformpassword">conform your password:</lable> 
+            <input type="password"required><br>
+           
+            <label for="dob">Enter your date od birth:</label>
+            <input type="date" required/><br>
+           
+            <label>Select your gender:</label>
+            <div class="gender-group">
+                <input type="radio" value="male"required/>
+                <lable for="male">male</lable>
+                <input type="radio" value="female"required/>
+                <lable for="female">female</lable>
+                <input type="radio" value="other"required/>
+                <lable for="other">other</lable>
+            </div>
+            
+            <lable for="address">Enter your address:</lable> 
+            <input type="textaarea"required></textaarea><br>
+            
+            <label>Select your state:</label>
+            <div class="state-group">
+                <select>
+                    <optiona>............Select State"..........
+                        <option>Maharashtra</option>
+                        <option>Madhya Pradash</option>
+                        <option>Gujarat</option>
+                        <option>Bihar</option>
+                </select>
+            <legend><h3>Educational Information:</h3></legend>
+            <label>Select your branch:</label>
+            <div class="branch-group">
+                
+                <input type="checkbox"/>CSE
+                <input type="checkbox"/>CSE(ALML)
+                <input type="checkbox"/>CSE(AIDS)
+                <input type="checkbox"/>IT
+                <input type="checkbox"/>ETC
+                <input type="checkbox"/>MECH
+                <input type="checkbox"/>CIVIL
+                <input type="checkbox"/>EE
+            </div>
+            
+            <lable for="ssc">SSC %</lable>
+                <input type="% marks" required/><br>
+                <lable for="HHC">HSC %</lable>
+                <input type="% marks" required/><br>
+               
+            <legend><h3>3. Upload Documents</h3></legend>
+            Upload Photo: <input type="file" name="photo" accept="image/*" required><br><br>
+            Upload Marksheet: <input type="file" name="marksheet" accept=".pdf,.jpg,.png" required><br><br>
+            Upload ID Proof: <input type="file" name="id_proof" accept=".pdf,.jpg,.png" required><br><br>
+    
+            <input type="submit" value="Submit">
+    
+        </form>
+    
+    </body>
+    </html>
